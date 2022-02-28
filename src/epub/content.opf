@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/william-shakespeare/timon-of-athens</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-02-28T20:36:22Z</dc:date>
+		<meta property="dcterms:modified">2022-02-28T20:36:22Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,18 +41,18 @@
 		<meta property="se:subject">Drama</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:description id="description">A wealthy Athenian lord becomes poor and friendless after his “friends” took advantage of his hospitality.</dc:description>
+		<dc:description id="description">A wealthy Athenian lord becomes poor and friendless after his “friends” take advantage of his hospitality.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Lord Timon is known by the whole city of Athens as a very generous man. He offers to bail his friend, Ventidius, out of jail, hires local artists for their talents, and invites his admirers to a feast and offers them gifts. Timon’s closest friend Apemantus tries to warn him that these people are like parasites and taking advantage of him. Flavius, Timon’s servant, also tries to warn his master that his finances are in dire straits due to the lavish spending, and he owes a lot of money. Both worries are dismissed—until creditors that were once considered “friends” to Timon demand his debts be paid.&lt;/p&gt;
-			&lt;p&gt;Many scholars consider &lt;i&gt;Timon of Athens&lt;/i&gt; an unfinished work; plot developments that go nowhere, random character appearances, and other inconsistencies make it feel incomplete. This play was never performed during &lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare’s&lt;/a&gt; lifetime. If it had, the production would have been considered too controversial because of its allusion to King James I and his lavish spending and debts.&lt;/p&gt;
+			&lt;p&gt;Lord Timon is known by the whole city of Athens as a very generous man. He offers to bail his friend Ventidius out of jail, hires local artists for their talents, and invites his admirers to a feast and offers them gifts. Timon’s closest friend Apemantus tries to warn him that these people are parasites, taking advantage of him. Flavius, Timon’s servant, also tries to warn his master that his finances are in dire straits due to the lavish spending, and that he owes a lot of money. Both worries are dismissed—until creditors that were once considered Timon’s “friends” demand his debts be paid.&lt;/p&gt;
+			&lt;p&gt;Many scholars consider &lt;i&gt;Timon of Athens&lt;/i&gt; an unfinished work: plot developments that go nowhere, random character appearances, and other inconsistencies make it feel incomplete, and it was never performed in &lt;a href="https://standardebooks.org/ebooks/william-shakespeare"&gt;Shakespeare’s&lt;/a&gt; lifetime. If it had been, the production might have been considered too controversial because of its allusion to King James I and his lavish spending and debts.&lt;/p&gt;
 			&lt;p&gt;This Standard Ebooks production is based on William George Clark and William Aldis Wright’s 1887 Victoria edition, which is taken from the Globe edition.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://shakespeare.mit.edu/timon/full.html</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/004135080</dc:source>
 		<meta property="se:production-notes">The main text is based on the MIT transcription and 1887 Victoria edition.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">20207</meta>
+		<meta property="se:reading-ease.flesch">82.24</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Timon_of_Athens</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/william-shakespeare_timon-of-athens</meta>
 		<dc:creator id="author">William Shakespeare</dc:creator>
@@ -77,6 +77,11 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Matt Chan</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Chan, Matt</meta>
+		<meta property="se:name.person.full-name" refines="#producer-2">Matthew Yunho Chan</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://github.com/thewchan</meta>
+		<meta property="se:role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
