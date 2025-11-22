@@ -29,7 +29,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Timon of Athens</dc:title>
 		<meta property="file-as" refines="#title">Timon of Athens</meta>
-		<meta property="dcterms:alternate" refines="#title">The Life of Tymon of Athens</meta>
+		<meta property="dcterms:alternative" refines="#title">The Life of Tymon of Athens</meta>
 		<dc:subject id="subject-1">Tragedies</dc:subject>
 		<dc:subject id="subject-2">Timon of Athens (Legendary character) -- Drama</dc:subject>
 		<dc:subject id="subject-3">Athens (Greece) -- Drama</dc:subject>
